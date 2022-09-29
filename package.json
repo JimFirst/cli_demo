@@ -1,0 +1,31 @@
+{
+  "name": "cli_demo",
+  "version": "1.0.0",
+  "description": "a mini cli demo",
+  "main": "index.js",
+  "bin": "./bin/www.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JimFirst/cli_demo.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JimFirst/cli_demo/issues"
+  },
+  "homepage": "https://github.com/JimFirst/cli_demo#readme",
+  "dependencies": {
+    "axios": "^0.27.2",
+    "commander": "^9.4.0",
+    "download-git-repo": "^3.0.2",
+    "fs-extra": "^10.1.0",
+    "inquirer": "^9.1.2",
+    "ora": "^6.1.2",
+    "util": "^0.12.4"
+  }
+}
